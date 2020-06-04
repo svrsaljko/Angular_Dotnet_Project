@@ -1,0 +1,14 @@
+F:\projects\dotnet\CmdApi\bin\Debug\netcoreapp2.2\..deps.json
+F:\projects\dotnet\CmdApi\bin\Debug\netcoreapp2.2\..runtimeconfig.json
+F:\projects\dotnet\CmdApi\bin\Debug\netcoreapp2.2\..runtimeconfig.dev.json
+F:\projects\dotnet\CmdApi\bin\Debug\netcoreapp2.2\..dll
+F:\projects\dotnet\CmdApi\bin\Debug\netcoreapp2.2\..pdb
+F:\projects\dotnet\CmdApi\obj\Debug\netcoreapp2.2\..csprojAssemblyReference.cache
+F:\projects\dotnet\CmdApi\obj\Debug\netcoreapp2.2\..csproj.CoreCompileInputs.cache
+F:\projects\dotnet\CmdApi\obj\Debug\netcoreapp2.2\..RazorAssemblyInfo.cache
+F:\projects\dotnet\CmdApi\obj\Debug\netcoreapp2.2\..RazorAssemblyInfo.cs
+F:\projects\dotnet\CmdApi\obj\Debug\netcoreapp2.2\..AssemblyInfoInputs.cache
+F:\projects\dotnet\CmdApi\obj\Debug\netcoreapp2.2\..AssemblyInfo.cs
+F:\projects\dotnet\CmdApi\obj\Debug\netcoreapp2.2\..RazorTargetAssemblyInfo.cache
+F:\projects\dotnet\CmdApi\obj\Debug\netcoreapp2.2\..dll
+F:\projects\dotnet\CmdApi\obj\Debug\netcoreapp2.2\..pdb

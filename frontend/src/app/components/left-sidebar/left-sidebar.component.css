@@ -1,0 +1,30 @@
+.left-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--dotnet);
+  border-bottom: none;
+}
+
+.menu-item {
+  border-bottom: 3px solid var(--dotnet);
+  color: var(--dotnet);
+}
+.menu-item:hover {
+  border-bottom: 3px solid var(--angular);
+  color: var(--angular);
+}
+
+.menu-item-active {
+  border-bottom: 3px solid var(--angular);
+  color: var(--angular);
+}
+
+.item-text {
+  margin: 0.5rem;
+}

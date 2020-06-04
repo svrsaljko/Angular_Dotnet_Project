@@ -1,0 +1,33 @@
+<div *ngIf="commandline && howTo && platform">
+  <div class="commandCard">
+    <div class="buttons">
+      <fa-icon class="button" [icon]="faEdit"></fa-icon>
+      <fa-icon
+        (click)="onDeleteClick()"
+        class="button"
+        [icon]="faWindowClose"
+      ></fa-icon>
+    </div>
+    <div class="commandLine">
+      <p>
+        command line:
+        <br />
+        <span class="command">
+          {{ commandline }}
+        </span>
+      </p>
+    </div>
+    <div class="howTo">
+      <p>
+        description: <br />
+        {{ howTo }}
+      </p>
+    </div>
+    <div>
+      <p>
+        platform: <br />
+        {{ platform }}
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+.commandCard {
+  margin-top: 1rem;
+  border-radius: 25px;
+  border: 3px solid gray;
+  color: gray;
+  width: 450px;
+  list-style: none;
+}
+
+.commandLine {
+  border-bottom: 3px solid gray;
+}
+
+.howTo {
+  border-bottom: 3px solid gray;
+}
+
+.command {
+  background: black;
+  color: white;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+.buttons {
+  border-bottom: 3px solid gray;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  margin: 0.5rem;
+}
+
+.button:hover {
+  color: green;
+}

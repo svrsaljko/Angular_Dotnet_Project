@@ -1,0 +1,31 @@
+<div class="commandsContainer">
+  <ul *ngIf="commands">
+    <li
+      [routerLink]="['/commands', command.id]"
+      class="commandCard"
+      *ngFor="let command of commands"
+    >
+      <div class="commandLine">
+        <p>
+          command line:
+          <br />
+          <span class="command">
+            {{ command.commandline }}
+          </span>
+        </p>
+      </div>
+      <div class="howTo">
+        <p>
+          description: <br />
+          {{ command.howTo }}
+        </p>
+      </div>
+      <div>
+        <p>
+          platform: <br />
+          {{ command.platform }}
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>

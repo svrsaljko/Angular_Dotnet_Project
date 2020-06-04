@@ -1,0 +1,73 @@
+<div class="add-command-main-conatiner">
+  <p id="idInstructions" class="add-command-instructions">
+    {{ instructions }}
+  </p>
+  <form
+    #addCommandForm="ngForm"
+    (ngSubmit)="submitCommand(addCommandForm)"
+    action=""
+  >
+    <div id="idContainer" class="add-command-container">
+      <div id="idRow" class="add-command-row">
+        <label for="idInput" id="idLabel" class="add-command-label">
+          commandline
+        </label>
+        <input
+          id="idInput"
+          name="Command"
+          [(ngModel)]="idInput"
+          class="add-command-input"
+          type="text"
+          placeholder="commandline here..."
+        />
+      </div>
+      <div id="idRow1" class="add-command-row">
+        <label for="idInput1" id="idLabel1" class="add-command-label">
+          description
+        </label>
+        <input
+          id="idInput1"
+          name="HowTo"
+          [(ngModel)]="idInput1"
+          class="add-command-input"
+          type="text"
+          placeholder="description here..."
+        />
+      </div>
+      <div id="idRow2" class="add-command-row">
+        <label for="idInput2" id="idLabel2" class="add-command-label">
+          platform
+        </label>
+        <input
+          id="idInput2"
+          name="Platform"
+          [(ngModel)]="idInput2"
+          class="add-command-input"
+          type="text"
+          placeholder="platform here..."
+        />
+      </div>
+      <div class="add-command-row-buttons">
+        <button
+          type="button"
+          id="idAngularButton"
+          (click)="onFrameworkClick('var(--angular)')"
+          class="add-command-angular-button"
+        >
+          ANGULAR
+        </button>
+        <button
+          type="button"
+          id="idDotnetButton"
+          (click)="onFrameworkClick('var(--dotnet)')"
+          class="add-command-dotnet-button"
+        >
+          DOTNET
+        </button>
+      </div>
+    </div>
+    <button class="add-command-submit-button">SUBMIT</button>
+  </form>
+</div>
+
+<!-- Angular generated form model: {{ addCommandForm.value | json }} -->

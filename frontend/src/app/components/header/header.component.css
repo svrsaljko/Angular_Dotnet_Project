@@ -1,0 +1,11 @@
+.header {
+  text-align: center;
+}
+
+.angular {
+  color: var(--angular);
+}
+
+.dotnet {
+  color: var(--dotnet);
+}

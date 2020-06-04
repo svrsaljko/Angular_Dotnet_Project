@@ -1,0 +1,7 @@
+.centerContainer {
+  display: flex;
+  flex-direction: row;
+  /* border: 3px solid black; */
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
